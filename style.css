@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(22, 25, 26);
+}
+
+.card {
+    width: 90%;
+    max-width: 457px;
+    background: linear-gradient(135deg, rgb(8, 125, 235), rgb(109, 222, 9));
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 15px;
+    padding: 40px 40px;
+    text-align: center;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    color: gray;
+    height: 50px;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 20px;
+    align-items: center;
+    flex: 1;
+    margin-right: 30px;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.weather-icon {
+    width: 170px;
+    margin-top: 30px;
+}
+
+.weather h1 {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.weather h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 50px;
+   margin-right: 10px;
+}
+.humidity , .wind{
+    font-size: 28px;
+    margin-top: -6px
+}
+h3{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: -15px;
+}
