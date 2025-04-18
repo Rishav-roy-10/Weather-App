@@ -44,11 +44,8 @@ searchBtn.addEventListener("click" ,()=>{
 
 searchBox.addEventListener('keydown', function (e){
     if (e.key === 'Enter') {
+        e.preventDefault(); 
         weatherCheck(searchBox.value);
+        searchBox.blur(); 
     }
-})
-
-searchBox.addEventListener('submit', function (e) {
-    e.preventDefault(); 
-    searchBox.blur();
-  })
+});
