@@ -47,3 +47,8 @@ searchBox.addEventListener('keydown', function (e){
         weatherCheck(searchBox.value);
     }
 })
+
+searchBox.addEventListener('submit', function (e) {
+    e.preventDefault(); 
+    searchBox.blur();
+  })
